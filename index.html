@@ -277,6 +277,7 @@ img,svg{max-width:100%;display:block}
 #unlock{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:1600;font-family:var(--hand);font-size:26px;color:var(--ink);background:var(--paper);border:3px solid var(--ink);padding:10px 26px;border-radius:52% 48% 50% 50%/60% 62% 38% 40%;box-shadow:0 0 0 2.5px var(--paper),0 14px 40px rgba(0,0,0,.7);display:flex;align-items:center;gap:10px;animation:pulse 1.6s ease-in-out infinite}
 #unlock svg{width:22px;height:22px;stroke:var(--ink);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 #unlock:focus-visible{outline:2px solid var(--red);outline-offset:4px}
+#unlock[hidden],#mbar[hidden],#msheet[hidden],[hidden]{display:none!important}
 
 /* ---------- 모바일 (≤768px): PC 레이아웃은 그대로, 여기서만 덮어씀 ---------- */
 #mbar,#msheet{display:none}
